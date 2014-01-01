@@ -14,7 +14,7 @@
 	for(i = 0; i < N; i++)
 	{
 		id[i] = i;
-		sz[i] = i;
+		sz[i] = 1;
 	}
 	while(scanf("%d %d", &p, &q) == 2)
 	{
