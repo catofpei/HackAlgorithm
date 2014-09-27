@@ -1,0 +1,20 @@
+1. Set up Git
+	
+	git config --global user.name "catofpei"
+	git config --global user.email "peibaoyi.1990@163.com"
+	
+2. Set up ssh
+	ssh-keygen -t rsa -C "peibaoyi.1990@163.com"
+	ssh-agent -s
+	ssh-add ~/.ssh/id_rsa
+	
+	clip< ~/.ssh/id_rsa.pub
+	
+3. Test
+	ssh -T git@github.com
+	
+	
+4. fork repository
+	
+	git clone https://github.com/catofpei/HackAlgorithm.git
+	
