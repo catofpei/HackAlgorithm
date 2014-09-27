@@ -1,1 +1,1 @@
-It is open blog.
+It's blog directory.
